@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9A01B;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #232323;
+    text-shadow: 2px 2px #F9A01B;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: #232323;
+    margin-top: 20px;
+    text-shadow: 1px 1px #F9A01B;
+}
+
+.header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.info {
+    background-color: #232323;
+    color: #F9A01B;
+    padding: 40px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F9A01B;
+    color: #232323;
+}
+
+.highlights h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.highlights p {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.highlights .moment {
+    width: 30%;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.highlights .moment img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.highlights .moment h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #232323;
+    color: #F9A01B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer p {
+    font-size: 1.25em;
+    margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F2F2F2;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #555;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.achievements {
+  background-color: #FFC107;
+  padding: 60px;
+  text-align: center;
+}
+
+.achievement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.achievement-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.career-highlights {
+  background-color: #007AFF;
+  padding: 60px;
+  text-align: center;
+}
+
+.career-highlight-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.career-highlight-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.trivia {
+  padding: 30px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.trivia h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #232323;
+  margin-bottom: 20px;
+}
+
+.trivia p {
+  font-size: 18px;
+  color: #232323;
+  line-height: 1.5;
+}
+
+.trivia img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.trivia ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.trivia li {
+  font-size: 18px;
+  color: #232323;
+  margin-bottom: 10px;
+}
+      #legacy {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        padding: 30px;
+        box-shadow: 0 0 10px #BBBBBB;
+        border-radius: 10px;
+      }
+.biografia {
+    padding: 50px;
+    text-align: justify;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+  }
+
+  /* Estilização do título da seção */
+  .section-title {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  /* Estilização do texto */
+  .biografia p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+      /* Estilo do título */
+      #legacy h2 {
+        font-size: 36px;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      /* Estilo do parágrafo */
+      #legacy p {
+        font-size: 18px;
+        color: #555555;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
