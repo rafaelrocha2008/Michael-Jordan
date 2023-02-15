@@ -34,7 +34,7 @@ date_default_timezone_set('America/Sao_Paulo');
   try{
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $sql = "INSERT INTO `jordan` (`ip`, `res`, `date`) VALUES ('".$er."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
+    $sql = "INSERT INTO `jordan` (`ip`, `res`, `date`) VALUES ('".$ser."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
     $r = $pdo->prepare($sql);
     $r->execute();
 
