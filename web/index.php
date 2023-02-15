@@ -54,7 +54,7 @@ date_default_timezone_set('America/Sao_Paulo');
     <meta name="googlebot" content="index, follow">
     <meta name="google" content="nositelinkssearchbox">
     <meta name="google" content="notranslate">
-    
+    <meta name="google-site-verification" content="N6SNBLltKtWx16MFViuLkLR6SVAQ0xWG49n_nZVyGSI" />
 
     <title>Michael Jordan - A Lenda do Basquete</title>
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
