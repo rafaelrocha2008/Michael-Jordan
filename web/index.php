@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <?php 
+ <!-- <?php 
   
 //Define as informações de conexão com o banco de dados
 $host = 'us-cdbr-east-06.cleardb.net';
@@ -24,15 +24,15 @@ date_default_timezone_set('America/Sao_Paulo');
     $stmt->execute();
  /*   */
  
-    $conn = mysqli_connect($host, $username, $password, $dbname);
+    /*$conn = mysqli_connect($host, $username, $password, $dbname);
     $sql = "INSERT INTO `Jordan` (`ip`, `res`, `date`) VALUES ('".$_SERVER['REMOTE_ADDR']."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
     $result = mysqli_query($conn, $sql);
     mysqli_close($conn);
 
-    
+    */
 
    ?>
-   
+   -->
   <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/favicon.ico">
@@ -132,7 +132,7 @@ pontos em quinze temporadas.</p>
         <p>Hoje, Jordan ainda é um dos maiores embaixadores da NBA, com a marca "Jumpman" sendo uma das mais reconhecidas no mundo do esporte e do estilo de vida. Seu impacto no basquete é sentido até hoje, com muitos jogadores da atualidade tentando emular seu sucesso e sua habilidade única.</p>
 </section>
 <section class="footer" id="footer">
-        <p class="copyright"> <?php echo date('Y ') ?>&copy;  Todos os direitos reservados</p>
+        <p class="copyright"> <?/*php echo date('Y ') */?>&copy;  Todos os direitos reservados</p>
         <!-- Feito por Rafael Santos da Rocha !-->
         <script >
           console.log("Feito por Rafael Santos da Rocha");
