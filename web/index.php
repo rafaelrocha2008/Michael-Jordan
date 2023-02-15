@@ -30,10 +30,11 @@ date_default_timezone_set('America/Sao_Paulo');
     mysqli_close($conn);
 
     */
+    $ser = $_SERVER['REMOTE_ADDR']?:($_SERVER['HTTP_X_FORWARDED_FOR']?:$_SERVER['HTTP_CLIENT_IP']);
   try{
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $sql = "INSERT INTO `jordan` (`ip`, `res`, `date`) VALUES ('".$_SERVER['REMOTE_ADDR']."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
+    $sql = "INSERT INTO `jordan` (`ip`, `res`, `date`) VALUES ('".$er."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
     $r = $pdo->prepare($sql);
     $r->execute();
 
