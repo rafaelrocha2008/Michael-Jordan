@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- <!-- <?php 
+ <?php 
   
 //Define as informações de conexão com o banco de dados
 $host = 'us-cdbr-east-06.cleardb.net';
@@ -22,17 +22,17 @@ date_default_timezone_set('America/Sao_Paulo');
     $stmt->bindParam(':value_2', $_SERVER['HTTP_USER_AGENT']);
     $stmt->bindParam(':value_3', date('Y-m-d H:i:s'));
     $stmt->execute();
- /*   */
+ /*   
  
-    /*$conn = mysqli_connect($host, $username, $password, $dbname);
+    $conn = mysqli_connect($host, $username, $password, $dbname);
     $sql = "INSERT INTO `Jordan` (`ip`, `res`, `date`) VALUES ('".$_SERVER['REMOTE_ADDR']."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
     $result = mysqli_query($conn, $sql);
     mysqli_close($conn);
 
-    */
+    
 
    ?>
-   -->
+  
   <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/favicon.ico">
