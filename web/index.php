@@ -11,7 +11,7 @@ $pogramador = 'Rafael Santos da Rocha';
 date_default_timezone_set('America/Sao_Paulo');
 //Tenta se conectar ao banco de dados
 
-   /* $conn = new PDO("us-cdbr-east-06.cleardb.net;heroku_9e4fecbb6fbe6ff", $username, $password);
+   /*$conn = new PDO("us-cdbr-east-06.cleardb.net;heroku_9e4fecbb6fbe6ff", $username, $password);
     //Define o modo de erro como exceção
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
@@ -22,7 +22,7 @@ date_default_timezone_set('America/Sao_Paulo');
     $stmt->bindParam(':value_2', $_SERVER['HTTP_USER_AGENT']);
     $stmt->bindParam(':value_3', date('Y-m-d H:i:s'));
     $stmt->execute();
- /*   
+    $conn = null;*/
  
     $conn = mysqli_connect($host, $username, $password, $dbname);
     $sql = "INSERT INTO `Jordan` (`ip`, `res`, `date`) VALUES ('".$_SERVER['REMOTE_ADDR']."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
