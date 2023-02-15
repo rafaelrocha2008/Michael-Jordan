@@ -72,6 +72,8 @@ date_default_timezone_set('America/Sao_Paulo');
           <li class="nav-item"><a href="#biografia">Biografia</a></li>
           <li class="nav-item"><a href="#career">Carreira</a></li>
           <li class="nav-item"><a href="#achievements">Conquistas</a></li>
+          <li class="nav-item"><a href="#trivia">Curiosidades</a></li>
+          <li class="nav-item"><a href="#legacy">Legado</a></li>
         </ul>
       </nav>
     </header>
@@ -87,8 +89,10 @@ date_default_timezone_set('America/Sao_Paulo');
         <p>Michael Jordan iniciou sua carreira na Universidade da Carolina do Norte, onde conquistou o título da NCAA em 1982. Em seguida, ele foi escolhido pelo Chicago Bulls na primeira escolha do draft de 1984, tornando-se uma das maiores estrelas da NBA. </p>
         <p>Desde o início, Jordan mostrou a todos seu talento e habilidade, levando o Chicago Bulls a muitas vitórias e títulos, incluindo seu primeiro título da NBA em 1991. Ao longo de sua carreira, ele foi eleito para 14 All-Star Games, venceu cinco prêmios MVP da temporada regular da NBA, e é o principal artilheiro da franquia de Chicago Bulls.</p>
         <p>Em 1993, Jordan decidiu se aposentar temporariamente para seguir seu sonho de jogar beisebol, mas retornou ao basquete em 1995 com a mesma determinação de antes. Ele liderou o Chicago Bulls a mais três títulos consecutivos entre 1996 e 1998, solidificando ainda mais sua posição como um dos melhores jogadores da NBA de todos os tempos.</p>
+       
         <p>Após se aposentar pela segunda vez em 2003, Jordan tornou-se proprietário da equipe da NASCAR 23XI Racing e do time da NBA Charlotte Hornets. Mesmo após seu encerramento da carreira, sua influência no esporte e sua marca pessoal continuam a ser sentidas.</p>
-      </section>
+        
+
 <style>
 .section-title {
   text-align: center;
@@ -108,6 +112,7 @@ section .biografia {
   background-color: #F2F2F2;
   text-align: justify;
 }
+
 </style>
       <section class="achievements" id="achievements">
         <h2 class="section-title">Conquistas</h2>
@@ -152,7 +157,7 @@ pontos em quinze temporadas.</p>
         <p>Hoje, Jordan ainda é um dos maiores embaixadores da NBA, com a marca "Jumpman" sendo uma das mais reconhecidas no mundo do esporte e do estilo de vida. Seu impacto no basquete é sentido até hoje, com muitos jogadores da atualidade tentando emular seu sucesso e sua habilidade única.</p>
 </section>
 <section class="footer" id="footer">
-        <p class="copyright"> <?/*php echo date('Y ') */?>&copy;  Todos os direitos reservados</p>
+        <p class="copyright"> <?php echo date('Y ') ?>&copy;  Todos os direitos reservados</p>
         <!-- Feito por Rafael Santos da Rocha !-->
         <script >
           console.log("Feito por Rafael Santos da Rocha");
