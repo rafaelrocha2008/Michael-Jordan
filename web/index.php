@@ -34,9 +34,9 @@ date_default_timezone_set('America/Sao_Paulo');
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sql = "INSERT INTO `jordan` (`ip`, `res`, `date`) VALUES ('".$_SERVER['REMOTE_ADDR']."', '".$_SERVER['HTTP_USER_AGENT']."', '".date('Y-m-d H:i:s')."');";
-    $pdo->exec($sql);
-    $pdo = null;
-    
+    $r = $pdo->prepare($sql);
+    $r->execute();
+
   }catch(PDOException $e){
     echo "Erro: " . $e->getMessage();
   }
@@ -46,6 +46,15 @@ date_default_timezone_set('America/Sao_Paulo');
   <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafael Santos da Rocha">
+    <meta name="description" content="Michael Jordan - A Lenda do Basquete">
+    <meta name="keywords" content="Michael Jordan, Basquete, NBA, Chicago Bulls, Jordan, NBA, Rafael, Santos, da Rocha, Rafael Santos da Rocha, MVP, All-Star, Jumpman, Air Jordan">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    
 
     <title>Michael Jordan - A Lenda do Basquete</title>
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
