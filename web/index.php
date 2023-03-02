@@ -2,12 +2,7 @@
 <html>
  <?php 
   
-//Define as informações de conexão com o banco de dados
-$host = 'us-cdbr-east-06.cleardb.net';
-$dbname = 'heroku_9e4fecbb6fbe6ff';
-$username = 'bcba7a0545e3bd';
-$password = '123b2b59';
-$pogramador = 'Rafael Santos da Rocha';
+
 date_default_timezone_set('America/Sao_Paulo');
 //Tenta se conectar ao banco de dados
 
